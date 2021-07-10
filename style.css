@@ -4329,7 +4329,7 @@ animation: loadercxanim ease 2s;
         }
         50%
         {
-          opacity: 1;
+          opacity: 1.0;
         }
         100%
          {
