@@ -4179,7 +4179,12 @@ padding: 10px 10px 10px 10px;
 {
    border-top: 1px solid rgba(128, 128, 128, 0.4);
   border-right: 1px solid rgba(128, 128, 128, 0.4);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+#prog8
+{
+    border-top: 1px solid rgba(128, 128, 128, 0.4);
+  border-left: 1px solid rgba(128, 128, 128, 0.4);
 }
 
 #whoarewe
