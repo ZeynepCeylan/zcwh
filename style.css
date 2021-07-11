@@ -991,17 +991,6 @@ a img.aligncenter {
 	vertical-align: middle;
 }
 
-.first-section::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-	top: 0px;
-	left: 0px;
-    display: block;
-    background: rgba(0,0,0,0.3);
-}
-
 .first-section h2 {
     color: #ffffff;
     font-size: 68px;
@@ -4408,3 +4397,283 @@ animation: loadercxanim ease 2s;
           opacity: 0;
          }
    }
+
+
+
+   .hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -10%;
+
+   }
+
+   .hipoterapiimgcont
+   {
+
+   }
+
+   .img1::before, .img2::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  top: 0px;
+  left: 0px;
+    display: block;
+    background: rgba(0,0,0,0.3);
+}
+
+
+.hipoterapiht, .hipoterapihtl
+{
+color: black !important;
+}
+
+.hipoterapikids
+{
+  position: absolute;
+  margin-top: 150px;
+}
+
+.uzayterapiht, .uzayterapihtl
+{
+  color: black !important;
+}
+
+.uzayterapiht strong
+{
+  color: #ebca02 !important;
+}
+
+.uzayterapiimg
+{
+      width: 512px;
+        background-color: white;
+    border-radius: 256px;
+
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -14%;
+}
+
+
+   @media screen and (max-width: 1500px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+
+.hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -10%;
+
+   }
+    }
+
+       @media screen and (max-width: 1200px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -15%;
+}
+
+.hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -15%;
+
+   }
+         .hipoterapikids
+   {
+    margin-top: 200px;
+   }
+    }
+
+           @media screen and (max-width: 970px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+
+.hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -10%;
+
+   }
+    }
+
+
+               @media screen and (max-width: 768px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -20%;
+}
+
+.hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -20%;
+
+   }
+      .hipoterapikids
+   {
+    margin-top: 170px;
+   }
+    }
+
+                   @media screen and (max-width: 540px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -28%;
+}
+
+.hipoterapiimg
+   {
+    width: 256px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -48%;
+
+   }
+
+   .hipoterapikids
+   {
+    margin-left: -65px;
+   }
+    }
+
+                       @media screen and (max-width: 414px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -35%;
+}
+
+.hipoterapiimg
+   {
+    width: 240px;
+        background-color: white;
+    border-radius: 120px;
+
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -60%;
+
+   }
+    }
+
+                           @media screen and (max-width: 375px) {
+    .uzayterapiimg
+{
+      width: 256px;
+        background-color: white;
+    border-radius: 218px;
+
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -40%;
+}
+
+.hipoterapiimg
+   {
+    width: 170px;
+        background-color: white;
+    border-radius: 85px;
+
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -50%;
+
+   }
+    }
+
+                               @media screen and (max-width: 320px) {
+    .uzayterapiimg
+{
+      width: 160px;
+        background-color: white;
+    border-radius: 80px;
+
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -30%;
+}
+
+.hipoterapiimg
+   {
+    width: 160px;
+        background-color: white;
+    border-radius: 128px;
+
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -50%;
+
+   }
+    }
+
+
